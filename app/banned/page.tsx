@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function BannedPage(){return <main className="auth-wrap"><section className="auth-card"><div className="eyebrow">Account restriction</div><h1>Your account is suspended.</h1><p className="muted">An active moderation restriction was found for this account. If you believe this is a mistake, contact the AxonProfile moderation team.</p><Link className="btn" href="/">Return to home</Link></section></main>}
